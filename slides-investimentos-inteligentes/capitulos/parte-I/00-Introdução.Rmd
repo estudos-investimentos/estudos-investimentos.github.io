@@ -1,0 +1,33 @@
+
+
+---
+class: inverse, center, middle
+
+# Introdução
+
+
+---
+
+## Introdução
+
+- Esse material foi criado a partir das discussões do grupo de estudos de investimentos que estou participando.
+
+
+- Aqui estão os pontos que, na minha opinião fecal (`r emo::ji("poop")`), são os de maior interesse e se destacam nesse livro do Gustavo Cerbasi.
+
+---
+class: center, middle
+
+# Parte I:
+
+### Onde você estará pisando
+
+
+---
+## Onde você estará pisando
+
+
+- A primeira parte do livro é focada em apresentar conceitos iniciais sobre investimentos sobre o ponto de vista do autor com base em suas experiências.
+
+
+- Digamos que essa primeira metade é mais "teórica".

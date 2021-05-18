@@ -1,0 +1,228 @@
+
+
+---
+class: inverse, center, middle
+
+# 3 - O que não fazer
+
+
+---
+
+## O que não fazer
+
+
+- Nesse capítulo, o autor indica algumas recomendações do que não se deve fazer no mundo dos investimentos a partir dos próprios erros cometidos e pelas dúvidas que chegavam a ele por parte de terceiros.
+
+
+```{r}
+knitr::include_graphics("https://media.giphy.com/media/1QhmDy91F9veMRLpvK/source.gif")
+```
+
+
+---
+
+## Ter uma única fonte de renda 
+
+
+- A ideia aqui é entender que se uma família inteira depende de uma única fonte de renda, há muita fragilidade na saúde financeira familiar, pois o provedor está sujeito a adoecer ou ser demitido por exemplo. 
+
+
+
+- O autor também enfatiza que investir só faz sentido a partir do momento em que sobra, nesse caso vale a pena **investir no aumento da renda** (cursos, novos negócios, etc...). Além disso, é preciso ter a convicção que aportes pequenos irão demorar até apresentarem algum retorno substancial (do ponto de vista de investimentos mais tradicionais e menos arriscados). 
+
+
+> "É importante saber que muitos meses ou anos de esforço serão necessários até que se forme uma massa de recursos da qual se justifique retirar renda."
+
+- Outro ponto importante citado é que no caso de maior fragilidade da estrutura financeira familiar, mais recomendado é fazer um fundo de reserva que será investido em alguma opção robusta de alta liquidez como renda fixa (fundos DI por exemplo).
+
+
+---
+
+## Esperar sobrar dinheiro
+
+
+```{r, out.height="250px"}
+knitr::include_graphics("https://media.giphy.com/media/pFZTlrO0MV6LoWSDXd/giphy-downsized.gif")
+```
+
+
+> "O dinheiro que é investido de maneira eventual precisa apenas de uma desculpa eventual para ser desinvestido"
+
+
+- Aqui o Cerbasi atenta o leitor sobre a importância da disciplina e constância nos investimentos.
+
+
+> "A receita que melhor funciona para planos de longo prazo é a regularidade"
+
+
+---
+
+## Contar com muitas instituições para gerenciar sua riqueza
+
+
+- Tendo mais "fidelidade" com uma instituição você poderá ter mais benefícios de produtos que eles oferecem.
+
+
+> "Com conta aberta em diversos bancos, você não é um bom cliente em nenhum deles."
+
+
+---
+
+## Contar com uma única instituição para gerenciar sua riqueza
+
+
+- Nem oito e nem oitenta. Ao ser totalmente fiel a uma instituição sem considerar outras eventualmente, você poderá perder oportunidades melhores.
+
+
+> "É interessante que você consulte outros fornecedores de tempos em tempos para verificar se o bom atendimento não decorre apenas da boa remuneração que você gera para a instituição"
+
+
+---
+
+## Querer começar grande
+
+
+- Se você é um investidor iniciante, é bem provável que a burocracia e as complicações de investimentos mais complexos não justifiquem sair de investimentos mais "simples" (fundos por exemplo), sobretudo com pouco valor investido, em que a diferença dos ganhos seria na casa dos centavos. 
+
+
+```{r}
+knitr::include_graphics("https://media.giphy.com/media/xTkcExjXuOJj69fVv2/giphy-downsized.gif")
+```
+
+---
+
+## Poupar em vez de investir
+
+- Nesse tópico, Cerbasi Poupar muitas vezes exige sacrifício de conforto, saúde e tempo que poderia ser amenizado com investimentos que teriam o mesmo retorno a partir de decisões mais "inteligentes".
+
+
+> "Considero um investimento e seus rendimentos futuros como uma conquista antecipada"
+
+
+> "Por outro lado, não considero a renda que um trabalhador assalariado vai receber nos próximos meses uma conquista, pois diversos motivos podem tirá-lo do emprego."
+
+
+---
+
+## Ter um único investimento
+
+
+> "Nunca ponha seus ovos em uma única cesta. Se ela cair você perde tudo."
+
+```{r, out.height="250px"}
+knitr::include_graphics("https://media.giphy.com/media/l44Q8Tes1elin89b2/source.gif")
+```
+
+
+- **Diversificação** é um princípio básico para proteção de qualquer investimento.
+
+
+> "As maiores empresas brasileiras são fantásticas, mas são administradas por seres humanos..."
+
+
+---
+
+## Sonegar impostos
+
+```{r}
+knitr::include_graphics("https://media.giphy.com/media/Djc2oysM7jHmE/source.gif")
+```
+
+- As consequências de não pagar impostos podem ser muito piores do que pagar e garantir uma boa noite de sono.
+
+> "Se os impostos que pagamos são injustos ou não, isso é assunto para ser resolvido nas eleições e não na declaração do imposto de renda"
+
+
+---
+
+## Contribuir desnecessariamente para o INSS
+
+
+- Nesse tópico o autor relata que apesar de estudos mostrarem que o INSS não vai "quebrar", é fato que o poder de compra dos aposentados diminui conforme os anos passam.
+
+
+> "Quanto mais tempo você viver, maior será a certeza de ganhar cada vez menos."
+
+
+- Ele até faz um adendo:
+
+
+> "A contribuição coerente para o INSS é a mínima, porque a única garantia que teremos é o salário mínimo."
+
+---
+
+## Manter o FGTS intocável
+
+
+> "... ao desprezá-lo, você pode estar deixando uma pequena fortuna muito mal aproveitada, rendendo menos do que a Caderneta de Poupança, quando poderia estar rendendo de maneira mais eficiente em um investimento."
+
+- Apesar de ser um "lugar seguro" para deixar o dinheiro, é interessante utilizar o FGTS nos casos em que é possível seu saque. Um exemplo citado foi o caso em que o governo liberou o FGTS para compra de ações da Vale e Petrobrás. 
+
+
+---
+
+## Não aproveitar as vantagens de um PGBL
+
+- PGBL pode ter algumas vantagens ao aplicar o dinheiro deduzido de imposto (Cap 9 aborda essa questão de forma mais detalhada).
+
+
+> "A maior vantagem de um PGBL está no fato de que toda pessoa física que tem seu imposto de renda retido na fonte ou que faz sua declaração de ajuste anual para a Receita Federal pelo modelo completo tem o direito de deduzir em até 12% o valor de sua receita tributável anual se aplicar esses 12% em uma PGBL."
+
+
+> "Na prática, deixa-se de pagar imposto sobre a renda que foi aplicada, o que é o mesmo que aplicar um dinheiro que nunca mais seria seu se fosse para os cofres do governo."
+
+
+---
+
+## Hiperatividade ou giro excessivo nos investimentos
+
+
+> "Além da tributação que é maior para lucros em operações de day-trade (20% do lucro, contra 15% em operações tradicionais), soma-se o fato de que cada transação implica em corretagens e emolumentos."
+
+
+```{r}
+knitr::include_graphics("https://media.giphy.com/media/YnkMcHgNIMW4Yfmjxr/giphy.gif")
+```
+
+
+- Esse tópico é direcionado principalmente ao day trade e o autor atenta ao ponto de que é preciso levar em consideração os custos de operação e saber bem o que está fazendo.
+
+
+
+---
+
+## Paralisia nos investimentos
+
+
+
+> "Investimento de longo prazo não é a mesma coisa que investimento passivo, muito menos investimento negligente."
+
+
+- Não se deve deixar um investimento esquecido e esperar que dê tudo certo. Algo que está em alta hoje pode não estar daqui a 10 ou 20 anos.
+
+```{r, out.height="250px"}
+knitr::include_graphics("https://media.giphy.com/media/3orieUs03VUeeBa7Wo/source.gif")
+```
+
+-  O autor recomenda seguir tendências, reavaliar os investimentos ao menos 1 vez ao ano e rebalancear o patrimômio investido.
+
+
+---
+
+## Alavancagem com possibilidade de perda.
+
+
+- Cerbasi atenta ao leitor sobre os riscos desse tipo de operação e toma como exemplo a crise do *subprime* em 2008 nos EUA.
+
+> "Tomar dinheiro emprestado para investir, o que é chamado de investimento alavancado, é uma das mais arriscadas estratégias de enriquecimento."
+
+
+> "Temos que pagar tanto o que tomamos emprestado quanto os juros da operação."
+
+
+- O autor dá uma dica em que o empréstimo valeria a pena:
+
+> "O correto seria correr atrás de empréstimo quando você tem nas mãos um negócio de lucro certo (contrato na mão, venda garantida)."
+
+
+

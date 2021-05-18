@@ -1,0 +1,222 @@
+
+
+---
+class: inverse, center, middle
+
+# 4 - A arte de investir 
+
+
+---
+
+## A arte de investir
+
+### Qualidades do bom investidor
+
+
+
+```{r}
+knitr::include_graphics("https://media.giphy.com/media/kiBcwEXegBTACmVOnE/giphy-downsized.gif")
+```
+
+- Nesse capítulo, Cerbasi lista algumas das características pessoais que o levaram ao enriquecimento. Além disso, enfatiza que para ter sucesso no investimento você deve ter prazer nas suas escolhas de investimento. 
+
+
+> "Para que você pratique, é preciso gostar do que faz"
+
+
+---
+
+## Perseverança
+
+#### *Investir nada mais é do que plantar pés de dinheiro*
+
+
+- O autor abre a discussão sobre as qualidades do bom investidor fazendo uma analogia do investidor iniciante a um agricultor, que dedica sua vida a cultivar a terra com zelo, paciência e consistência, mesmo sabendo dos riscos de pragas, secas etc...
+
+> "O agricultor não é ingênuo ele sabe que essas ameaças existem. Ele planta com risco, sabendo que risco não se evita, e sim se administra."
+
+
+- Cerbasi também recomenda dar a mesma importância aos poucos grãos que tem em mãos que daria para sacas sendo despejadas em um caminhão. 
+
+
+> "Se tem pouco para investir, comece com o que tem, mas plante com consistência."
+
+
+> "Na pior das hipóteses, lhe será imposta a necessidade de plantar novamente, mas será uma plantação com mais conhecimento e maturidade do que a anterior."
+
+
+---
+
+## Objetivos claramente definidos
+
+#### *Saia da arquibancada da vida*
+
+> "Bons investidores sabem por que investem."
+
+- A ideia desse tópico é mostrar que é preciso definir o porquê você está investindo, pois se investir sem uma meta é bem provável que não irá ter motivação o suficiente depois de um certo tempo e irá abandonar o projeto. Essa meta pode ser desde uma troca de carro, MBA fora do país, aposentadoria segura ou qualquer outra coisa.
+
+> "Você não deve perseguir a proteção contra imprevistos, mas sim algo que realmente o motive, que instigue sua mente a dar o melhor de si para o sucesso de seu plano."
+
+- O autor da como exemplo uma tabela para conquistar 1 milhão com o tempo e investimento necessário de acordo com o rendimento esperado. Dessa forma é possível notar que esse objetivo é mais palpável do que se parece.
+
+
+---
+
+## Planejamento de curto, médio e longo prazo
+
+#### *Planejar é preciso*
+
+
+> "Planejamento de longo prazo não funciona se nele não estiverem incluídos vários planos de curto prazo."
+
+- Ter projetos e "ganhos" no meio do caminho para não desanimar
+
+- Juros compostos
+
+> "Não há mágica. Simplesmente, a lógica dos juros compostos."
+
+> "Na prática, contar com prazos longos permite que poupemos parcelas pequenas, pois os rendimentos farão a maior parte do esforço para nosso sucesso."
+
+
+---
+## Exemplo simulação do poder dos juros compostos
+
+
+```{r}
+options(htmltools.preserve.raw = FALSE)
+library(tidyverse)
+library(highcharter)
+library(widgetframe)
+
+plot_investimento <- 
+tibble(Meses = 1:240,
+       `Aplicação mensal` = 1000) %>% 
+  mutate(`Total aplicado` = cumsum(`Aplicação mensal`),
+         `Patrimônio total` = accumulate(`Aplicação mensal`,
+                                         .f = function(x1,x2) x2 + x1 + x1*.01),
+         `Lucro de rendimentos` = `Patrimônio total` - `Total aplicado`) %>% 
+  select(Meses, `Patrimônio total`, `Lucro de rendimentos`,
+         `Total aplicado`) %>% 
+  gather("variavel", "R$", - Meses) %>% 
+  mutate(`R$` = round(`R$`, 2)) %>% 
+  hchart(., "line", hcaes(x = Meses, y = `R$`, group = "variavel")) %>% 
+  hc_title(
+    text = "Simulação de investimento por 240 meses (20 anos)"
+  ) %>% 
+  hc_subtitle(
+    text = "Considerando aportes mensais de R$ 1.000,00 e rendimento de 1% ao mês."
+  ) 
+
+## bug do milenio
+# 
+# htmlwidgets::saveWidget(frameableWidget(plot_investimento),'plot_investimento.html')
+# 
+# path_plot <- normalizePath("plot_investimento.html")
+
+plot_investimento
+```
+
+
+---
+
+## Uso inteligente do tempo
+
+#### *Cobre caro por sua hora*
+
+
+```{r, out.height="250px"}
+knitr::include_graphics("https://media.giphy.com/media/p6iPHyrGYLiRq/giphy.gif")
+```
+
+
+- A ideia aqui é bem direta:
+
+> "Não se deve gastar mais tempo investindo do que cuidando da saúde... Caso contrário, não estará investindo em um futuro melhor, e sim em uma herança melhor."
+
+
+---
+
+## Organização e disciplina
+
+#### *Ouça sempre os pessimistas*
+
+```{r}
+knitr::include_graphics("https://media.giphy.com/media/xBqg5gAf1xINizpek6/giphy.gif")
+```
+
+
+- O que o autor quer dizer nesse tópico é que o mais provável é ter um desempenho mediano nos investimentos e os casos com maior retorno serão escassos, logo vale a ideia de criarmos os planos e contarmos com os resultados de uma perspectiva mais pessimista (diria realista).
+
+---
+
+## Seletividade com diversificação
+
+#### *Diversifique, mas não disperse*
+
+
+> "A diversificação acaba custando caro quando temos pouco dinheiro investido, uma vez que as transações de valores mais baixos tem menor poder de diluir custos fixos."
+
+- Cerbassi indica que o investidor iniciante deve focar em 2 alternativas ao máximo e usar o tempo para fazer boas escolhas nesse primeiro momento, pois ao diversificar, o poder monetário dilui (da perspectiva de juros compostos).
+
+- Depois de um certo nível de investimento, diversificar se torna mandatório pois é inviável perder o que já se ganhou.
+
+
+> "Na dúvida, prefira o meio-termo: diversifique pouco, mas diversifique."
+
+---
+
+## Rebalanceamento
+
+#### *Boas escolhas não dependem necessariamente de conhecimento técnico*
+
+- O autor apresenta uma das técnicas mais conhecidas de proteção de investimentos. O rebalanceamento da carteira de investimentos se baseia na ideia de, em tempos em tempos, remanejar o dinheiro investido de forma que mantenha as mesmas proporções previamente definidas.
+
+- Um exemplo seria definir 80% para renda fixa e 20% para renda variável e definir que a cada 12 meses o dinheiro seja remanejado para manter essa proporção. Trata-se de uma estratégia bastante eficiente para proteger os investimentos.
+
+> "Estudos sobre o rebalanceamento de carteiras no Brasil já mostram que, na pior das hipóteses, o investidor de longo prazo teria ganhos sensivelmente superiores aos do CDI se optasse por rebalancear, ao longo de pelo menos 10 anos, carteiras com pelo menos 20% investidos em ações."
+
+---
+
+## Plano B
+
+#### *Não esqueça o salva vidas; Nem a cerveja*
+
+
+> "Investir não é nada se você não souber o que fazer com a colheita."
+
+- Cerbasi relata que é preciso saber o que fazer se tudo der errado com os investimentos mas também saber para o caso de surpresas positivas como um investimento que superou muito as expectativas. Dessa forma a vida será muito mais fácil de lidar.
+
+> "Tenha combustível extra e uma boia salva-vidas para sobreviver ao mar revolto, mas não se esqueça de levar o protetor solar e colocar a cerveja na geladeira de seu barco, para o caso de uma boa brisa sob um sol deslumbrante."
+
+
+
+---
+
+## Inteligência tributária
+
+#### *Conheça melhor seus deveres para dever menos*
+
+
+- O autor reafirma que diferenças sutis na rentabilidade dos investimentos podem resultar em enormes diferenças no saldo após vários anos. Este é o caso da tributação, que deve ter uma atenção grande na hora de se investir, podendo invalidar ou conduzir a certos tipos de investimentos.
+
+
+- Ele também faz um adendo sobre o momento de pagar tributos:
+
+
+> "Você continuará pagando muitos impostos, mesmo com uma boa estratégia tribuitária. Porém, pode fazer grande diferença o momento em que você paga: ao postergar o pagamento de impostos, seu capital pode se multiplicar mais vezes antes de alimentar os cofres públicos."
+
+
+
+---
+
+## Parcerias
+
+#### *Duas cabeças pensam melhor que uma*
+
+```{r, out.height="250px"}
+knitr::include_graphics("https://media.giphy.com/media/GKZlYJLQAwqvm/giphy.gif")
+```
+
+> "Aprendi, desde meu primeiro investimento, que ninguém obtém sucesso investindo sozinho..."
+
+- Grupos, como o nosso, nos fazem ir mais longe para atingir um objetivo, pois contam com o suporte um do outro e trazem pluraridade de ideias e experiências que podem ser muito úteis para alcançar o sucesso.

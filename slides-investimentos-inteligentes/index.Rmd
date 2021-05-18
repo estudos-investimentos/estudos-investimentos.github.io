@@ -1,0 +1,76 @@
+---
+title: "Investimentos Inteligentes"
+subtitle: "Gustavo Cerbasi"
+author: "por Arthur Rocha"
+#institute: "Curitiba - PR, Brasil"
+date: "`r Sys.Date()`"
+encoding: "UTF-8"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+
+
+---
+class: center, middle
+
+# Bora ficar Ryko
+
+
+```{r include=FALSE}
+## configuracoes de saida dos chunks
+knitr::opts_chunk$set(
+   warning = FALSE,
+   message = FALSE,
+   error = FALSE,
+   eval = TRUE,
+   echo = FALSE,
+   fig.align = 'center',
+   fig.showtext = TRUE,
+   dpi=150
+)
+```
+
+```{r}
+knitr::include_graphics("https://media.giphy.com/media/LdOyjZ7io5Msw/source.gif")
+```
+
+
+<!-- PARTE I #################### -->
+
+<!-- introducao -->
+```{r, child="./capitulos/parte-I/00-Introdução.Rmd"}
+
+```
+
+<!-- capitulo 1 -->
+```{r, child="./capitulos/parte-I/01-Investir-é-multiplicar.Rmd"}
+
+```
+
+<!-- capitulo 2 -->
+```{r, child="./capitulos/parte-I/02-Obstáculos-ao-investidor-iniciante.Rmd"}
+
+```
+
+<!-- capitulo 3 -->
+```{r, child="./capitulos/parte-I/03-O-que-não-fazer.Rmd"}
+
+```
+
+<!-- capitulo 4 -->
+```{r, child="./capitulos/parte-I/04-A-arte-de-investir.Rmd"}
+
+```
+
+<!-- capitulo 5 -->
+```{r, child="./capitulos/parte-I/05-A-pergunta-de-um-milhão-de-dólares.Rmd"}
+
+```
+
+
+<!-- PARTE II #################### -->
