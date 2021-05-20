@@ -74,3 +74,8 @@ knitr::include_graphics("https://media.giphy.com/media/LdOyjZ7io5Msw/source.gif"
 
 
 <!-- PARTE II #################### -->
+
+<!-- capitulo 6 -->
+```{r, child="./capitulos/parte-II/06-Estratégias-inteligentes-em-renda-fixa.Rmd"}
+
+```

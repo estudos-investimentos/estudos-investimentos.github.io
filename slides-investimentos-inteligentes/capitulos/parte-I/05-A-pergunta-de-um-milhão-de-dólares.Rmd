@@ -11,32 +11,95 @@ class: inverse, center, middle
 ## A pergunta de um milhão de dólares
 
 
+```{r, out.height="200px"}
+knitr::include_graphics("https://media.giphy.com/media/1n7CF22EUYrc7IaoMD/giphy.gif")
+```
+
+- Esse capítulo se concentra na pergunta que é feita frequentemente: "Qual o melhor investimento para aplicar meu dinheiro". Tal pergunta não possui resposta, como o próprio Cerbasi afirma:
+
+> "O fato é que jamais existirá o melhor investimento."
+
+> "O melhor investimento é aquele que atende a suas necessidades, sua capacidade de investimento, sua tolerância ao risco, o prazo que você tem de investimento e, principalmente, seu nível de conhecimento sobre o produto."
+
+- O autor descorre o capítulo desmistificando algumas soluções ou conceitos prontos sobre investimentos.
 
 ---
 ## Mito 1: O Brasil é um lugar fácil para se ganhar dinheiro
 
 
+- Esse é o "mito dos otimistas" segundo Cerbasi, que olham apenas para o aspecto positivo na grande quantidade de oportunidades que o Brasil oferece mas acabam por não considerar a grande quantidade de burocracia e corrupção que existe no sistema econômico brasileiro.
+
+> "Em outras palavras, temos inúmeras oportunidades batendo à nossa porta, mas um número igualmente grande de oportunistas tentando nos passar a perna."
+
+> "Se temos argumentos para justificar que o Brasil é um dos melhores lugares para se ganhar dinheiro, o contrário pode ser justificado com números igualmente grande de motivos."
+
 ---
 ## Mito 2: O Brasil é um lugar difícil para se ganhar dinheiro
 
+- Em contrapartida, é inegável que o Brasil, além das inúmeras oportunidades como mercados ainda em desenvolvimento ou não explorados, está (ou estava) evoluindo no aspecto político-econômico. Um exemplo disso é o sucesso que o Plano Real teve a partir do momento de sua aplicação.
+
+> "Está mais fácil para se investir no Brasil, apesar de toda a dificuldade para se acreditar nisso."
+
+
+```{r, out.height="260px"}
+knitr::include_graphics("https://media.giphy.com/media/PSKAppO2LH56w/giphy-downsized.gif")
+```
 
 ---
 ## Mito 3: Investimentos de risco são bons até que apareça uma crise
 
+- Ao fazer investimentos de risco, o bom investidor já está contando com a possibilidade de haver uma crise, que são cíclicas e inevitáveis.
+
+> "Quem direcionar suas fichas para o mercado de risco deve estar preparado para as crises. Não apenas preparado para suportá-las, mas principalmente para evitar a euforia de investir quando muitos já estiverem comemorando lucros e ter paciência e disciplina para aguardar novas crises - que são a situação ideal para investir de maneira concentrada em ativos baratos."
+
+> "É nas crises que começam as belas histórias de investidores de sucesso."
 
 ---
 ## Mito 4: Risco deve ser evitado ou minimizado
 
 
+- Ao investir sem ou com poquíssimo risco, o retorno é muito prejudicado, logo a capacidade de multiplicar a riqueza se reduz drásticamente. O ideal é admnistrar os riscos de forma a não penalizar nem tanto o rendimento e nem todo o capital investido.
+
+> "Investidores, por sua vez, não correm riscos, e sim administram riscos."
+
+
+- O autor exibe um gráfico de Risco *versus* Retorno para exemplificar o conceito:
+
+<img src="./capitulos/parte-I/plot_risco_retorno.PNG" height="250px" style="display:flex;margin:auto"/>
+
 ---
 ## Mito 5: Seu perfil não combina com certos investimentos
+
+- A ideia aqui é não acreditar cegamente em regras pré estabelecidas de perfil de investimento, pois cada pessoa vive em uma situação diferente, tem oportunidades diferentes e se sente confortável a níveis diferentes de risco. Além disso é bem provável que o seu "perfil" mude ao longo dos anos.
+
+> "Em outras palavras, a não ser que você seja um filho de magnata ou um príncipe de uma linhagem muito rica, seu perfil deve variar ao longo da vida. Deveria, ao menos."
+
+- O autor ainda cita uma estratégia de cálculo bem simplista de quanto risco assumir conforme a idade do investidor. Para o caso do Brasil, basta subitrair a idade de 80 e considerar esse número como a porcentagem de renda variável que deveria estar na carteira de investimento.
+
 
 
 ---
 ## Mito 6: É preciso ter timing para investir bem
+
+```{r}
+knitr::include_graphics("https://media.giphy.com/media/9u514UZd57mRhnBCEk/giphy-downsized.gif")
+```
+
+
+- De fato, para alguns tipos de investimento, como o *day trading* é preciso estar com o timing e percepção visual aguçados (para humoristas também), mas é possível adotar estratégias mais **fundamentalistas** que prevêm os rendimentos em um período bem mais extenso, como meses ou até anos. 
+
+> "... é possível adquirir investimentos com boas perspectivas e sem a preocupação de comprar ou vender logo, pois se espera que um papel com bons fundamentos mantenha bons resultados por muito tempo."
 
 
 ---
 ## Mito 7: Sou um investidor bem informado
 
 
+- Cerbasi termina o capítulo descrevendo o mito dos "investidores convencidos" (aqueles que acham que já sabem de tudo e não precisam estudar mais).
+
+- O mercado muda constantemente e isso nos cria a necessidade de sempre estar aprendendo e avaliando as melhores oportunidades para investir nosso capital.
+
+> "Quando seus conhecimentos estiverem gerando bons frutos, considere-os ultrapassados, pois muita gente estará colhendo também e, em pouco tempo, seus ótimos investimentos serão investimentos medianos."
+
+
+> "Com o tempo não espere ter os melhores ativos, mas uma melhor condição de buscá-los. Porém não deixe de perseguir melhorias em sua carteira."
