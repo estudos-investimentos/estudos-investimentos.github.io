@@ -1,5 +1,5 @@
 
-const pessoas = ['Arthur', 'Murilo', 'Paulo', 'Elvis', 'Everton', 'João'];
+const pessoas = ['Arthur', 'Murilo', 'Paulo', 'Elvis', 'Everton'];
 const pessoa_sorteada = document.querySelector('.pessoa_sorteada');
 const dimdim = document.querySelector('.dimdim');
 
